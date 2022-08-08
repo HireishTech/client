@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import NavBar from '../components/navBar/navBar';
 
 export default function Home() {
   return (
@@ -7,12 +8,9 @@ export default function Home() {
         <title>Hireish</title>
         <link rel="icon" href="/Hireish.png" />
       </Head>
-      
       <div>
-        <h1>Welcome to Hireish Client</h1>
-        <img src="Hireish.png" alt="logo" />
+        <NavBar/>
       </div>
-
     </>
   )
 }
